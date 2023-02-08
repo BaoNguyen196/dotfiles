@@ -18,3 +18,9 @@ alias ...='cd ../..'
 # System
 alias szsh="source ~/.zshrc; echo 'Reload zshrc completed!';"
 alias sdown="sudo shutdown -h now"
+
+alias ys="yarn start"
+alias yt="yarn test"
+alias gp="git pull"
+alias gfp="git fetch -p"
+alias tspl="cd Documents/companies/Trusting-Social/projects/portal_loyalty"

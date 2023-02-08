@@ -5,16 +5,16 @@
 sudo
 
 # Make default folders
-mkdir ~/Pets 
-mkdir ~/Projects
+# mkdir ~/Pets 
+# mkdir ~/Projects
 
 # Homebrew Script for OSX
 # To execute: save and `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh`
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/truongqk1987/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/truongqk1987/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
+# echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/truongqk1987/.zprofile
+# echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/truongqk1987/.zprofile
+# eval "$(/opt/homebrew/bin/brew shellenv)"
 
 
 # Commands

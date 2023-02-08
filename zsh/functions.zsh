@@ -35,10 +35,10 @@ delAliases() {
 
 personalSSH() {
   ssh-add -D
-  ssh-add ~/.ssh/personal/id_rsa
+  ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 }
 
 officeSSH() {
   ssh-add -D
-  ssh-add ~/.ssh/id_rsa
+  ssh-add --apple-use-keychain ~/.ssh/id_bn_ts_ed25519
 }
