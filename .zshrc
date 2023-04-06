@@ -27,6 +27,8 @@ export TERM="xterm-256color"
 export PATH=$HOME/bin:$PATH
 export WORKSPACE=~/Projects
 export PETSPACE=~/Pets
+export TSSPACE=~/Documents/companies/Trusting-Social/projects
+export BAO=~/Documents/Bao
 
 source $ZSH/oh-my-zsh.sh
 
