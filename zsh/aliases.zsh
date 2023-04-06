@@ -1,6 +1,8 @@
 alias pspace="cd $PETSPACE"
 alias wspace="cd $WORKSPACE"
 alias dotfiles="cd $DOTFILES"
+alias tsprojects="cd $TSSPACE"
+alias bao="cd $BAO"
 
 alias nvimrc="nvim ~/.config/nvim/init.vim"
 alias zshrc="nvim ~/.zshrc"
@@ -14,6 +16,7 @@ alias tmuxi="tmuxinator"
 alias .='pwd'
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ~='cd ~'
 
 # System
 alias szsh="source ~/.zshrc; echo 'Reload zshrc completed!';"
@@ -23,4 +26,10 @@ alias ys="yarn start"
 alias yt="yarn test"
 alias gp="git pull"
 alias gfp="git fetch -p"
+alias cl="clear"
+alias gcm="git checkout main"
+
+
+# TS Project
 alias tspl="cd Documents/companies/Trusting-Social/projects/portal_loyalty"
+alias dop="cd Documents/companies/Trusting-Social/projects/dj_web"
