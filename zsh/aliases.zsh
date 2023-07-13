@@ -28,6 +28,7 @@ alias gp="git pull"
 alias gfp="git fetch -p"
 alias cl="clear"
 alias gcm="git checkout main"
+alias yd="yarn dev"
 
 
 # TS Project
