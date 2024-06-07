@@ -25,6 +25,7 @@ brew install cmake
 brew install bat asdf fzf tree
 brew install exa
 brew install jq thefuck
+brew install fnm
 
 # Apps
 brew install --cask google-chrome
