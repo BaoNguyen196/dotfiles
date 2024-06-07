@@ -20,7 +20,7 @@ sudo
 # Commands
 brew install tmux tmuxinator
 brew install neovim
-brew install node yarn nvm
+brew install node yarn nvm fnm
 brew install cmake
 brew install bat asdf fzf tree
 brew install exa
