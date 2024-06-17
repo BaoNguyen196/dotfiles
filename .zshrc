@@ -42,15 +42,5 @@ source $(brew --prefix nvm)/nvm.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# bun completions
-[ -s "/Users/bao.nguyen2/.bun/_bun" ] && source "/Users/bao.nguyen2/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-# fnm
-FNM_PATH="/Users/bao.nguyen2/Library/Application Support/fnm"
-eval "`fnm env`"
+eval "$(fnm env --use-on-cd)"
