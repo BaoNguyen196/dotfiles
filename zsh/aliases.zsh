@@ -30,7 +30,10 @@ alias cl="clear"
 alias gcm="git checkout main"
 alias yd="yarn dev"
 
-
 # TS Project
 alias tspl="cd Documents/companies/Trusting-Social/projects/portal_loyalty"
 alias dop="cd Documents/companies/Trusting-Social/projects/dj_web"
+
+# chrome with no proxy
+# alias chrome="open -na 'Google Chrome' --args --proxy-server='direct://' --proxy-bypass-list='*'"
+alias chrome="open -na Google\ Chrome --args --no-proxy-server"
