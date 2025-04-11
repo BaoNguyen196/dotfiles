@@ -36,9 +36,32 @@ delAliases() {
 personalSSH() {
   ssh-add -D
   ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+	echo "Swiched to Personal SSH"
 }
 
 officeSSH() {
   ssh-add -D
-  ssh-add --apple-use-keychain ~/.ssh/id_bn_ts_ed25519
+  ssh-add --apple-use-keychain ~/.ssh/id_ed25519_bao_ts
+	echo "Swiched to Office SSH"
+}
+
+gcmit() {
+	if [ -z "$1" ]; then
+  echo "Error: Commit message argument is required"
+  exit 1
+  fi
+	git add .
+	git commit -m "$1"
+}
+
+gcnb(){
+	if [ -z "$1" ]; then
+  echo "Error: Branch name argument is required"
+  exit 1
+	fi
+	git checkout -b $1
+}
+
+grebasem() {
+	git rebase main
 }

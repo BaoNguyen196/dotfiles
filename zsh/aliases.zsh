@@ -31,9 +31,16 @@ alias gcm="git checkout main"
 alias yd="yarn dev"
 
 # TS Project
-alias tspl="cd Documents/companies/Trusting-Social/projects/portal_loyalty"
-alias dop="cd Documents/companies/Trusting-Social/projects/dj_web"
+alias tspl="cd Documents/companies/ts/ts-projects/portal_loyalty"
+alias dop="cd Documents/companies/ts/ts-projects/dj_web"
+
 
 # chrome with no proxy
 # alias chrome="open -na 'Google Chrome' --args --proxy-server='direct://' --proxy-bypass-list='*'"
 alias chrome="open -na Google\ Chrome --args --no-proxy-server"
+alias brave="open -n -a Brave\ Browser --args --no-proxy-server"
+alias arc="open -n -a Arc --args --no-proxy-server"
+
+# Python3
+alias py="python3"
+alias py3="python3"
