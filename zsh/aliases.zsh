@@ -22,25 +22,33 @@ alias ~='cd ~'
 alias szsh="source ~/.zshrc; echo 'Reload zshrc completed!';"
 alias sdown="sudo shutdown -h now"
 
+# Development tools
+## Yarn/Node.js
 alias ys="yarn start"
+alias yd="yarn dev"
 alias yt="yarn test"
+
+## Git
 alias gp="git pull"
 alias gfp="git fetch -p"
-alias cl="clear"
 alias gcm="git checkout main"
-alias yd="yarn dev"
 
-# TS Project
-alias tspl="cd Documents/companies/ts/ts-projects/portal_loyalty"
-alias dop="cd Documents/companies/ts/ts-projects/dj_web"
+## Utils
+alias cl="clear"
 
+# Project navigation
+## TS Projects
+alias tspl="cd $TSSPACE/portal_loyalty"
+alias dop="cd $TSSPACE/dj_web"
 
-# chrome with no proxy
-# alias chrome="open -na 'Google Chrome' --args --proxy-server='direct://' --proxy-bypass-list='*'"
+# Applications
+## Browsers with no proxy
 alias chrome="open -na Google\ Chrome --args --no-proxy-server"
 alias brave="open -n -a Brave\ Browser --args --no-proxy-server"
 alias arc="open -n -a Arc --args --no-proxy-server"
+# alias chrome="open -na 'Google Chrome' --args --proxy-server='direct://' --proxy-bypass-list='*'"
 
-# Python3
+# Languages
+## Python
 alias py="python3"
 alias py3="python3"
